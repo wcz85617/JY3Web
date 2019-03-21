@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			@keyframes name{
+				from{background-color: red;}
+				to{background-color: #7FFF00;}
+			}
+			div
+			{
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+				position: absolute;
+				left: 200px;
+				top: 200px;
+				transition:transform 2s linear;
+			}
+			div:hover
+			{
+				transform: rotate(-360deg) scale(-2);
+				animation: name 2s linear;
+			}
+				
+				
+		</style>
+	</head>
+	<body>
+		<div>
+			ccs过渡练习
+		</div>
+	</body>
+</html>
