@@ -1,0 +1,57 @@
+#content
+{
+	flex: 1;
+	overflow: scroll;
+	display: flex;
+	
+}
+#leftcontent
+{
+	height: 100%;
+	flex: 0.92;
+	border:1px solid black;
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+#abc
+{
+	height: 100%;
+	flex: 0.08;
+	border:1px solid black;
+	background-color: yellow;
+	display: flex;
+	flex-wrap:column;
+	align-content: center;
+	align-items: flex-start;
+	justify-content: center;
+	color: #000000;
+}
+#onetongxunlu
+{
+	height: 50px;
+	border-bottom: 1px solid red;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+#onetongxunlu img
+{
+	width: 30px;
+	height: 30px;
+}
+#tootongxunlu
+{
+	height: 50px;
+	border-bottom: 1px solid red;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+#tootongxunlu img
+{
+	width: 30px;
+	height: 30px;
+}
