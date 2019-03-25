@@ -1,0 +1,57 @@
+#content
+{
+	flex: 1;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+}
+#quan
+{
+	height: 100px;
+	flex:0.14285 ;
+	border-bottom: 1px solid grey;
+	display: flex;
+}
+#quanleft
+{
+	height: 100px;
+	flex: 0.7;
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+#quanleft img
+{
+	width:50px;
+	height: 50px;
+}
+#quanright
+{
+	height: 100px;
+	flex: 0.3;
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+	
+}
+#quanright img
+{
+	width:50px;
+	height: 50px;
+}
+
+
+
+.subcontent
+{
+	flex: 0.14258;
+	border-bottom: 1px solid grey;
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.subcontent img
+{
+	width:50px;
+	height: 50px;
+}

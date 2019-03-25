@@ -1,0 +1,70 @@
+#menu
+{
+	height: 50px;
+	background-color: aquamarine;
+	display: flex;
+	justify-content: space-between;
+	background-color: gainsboro;
+}
+#weixin
+{
+	height: 100%;
+	flex: 0.25;
+	border: 1px solid fuchsia;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+#weixin img
+{
+	width: 30px;
+	height: 30px;
+}
+#tongxinlu
+{
+	height: 100%;
+	flex: 0.25;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+#tongxinlu img
+{
+	width: 30px;
+	height: 30px;
+}
+
+#faxian
+{
+	height: 100%;
+	flex: 0.25;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+#faxian img
+{
+	width: 30px;
+	height: 30px;
+}
+#myself
+{
+	height: 100%;
+	flex: 0.25;
+	border: 1px solid fuchsia;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+#myself img
+{
+	width: 30px;
+	height: 30px;
+}
+
