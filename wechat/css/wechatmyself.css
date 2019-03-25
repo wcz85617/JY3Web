@@ -1,0 +1,84 @@
+#content
+{
+	flex: 1;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+}
+#contentmy
+{
+	height: 100px;
+	border-bottom: 1px solid grey;
+	display: flex;
+
+}
+#contentleft
+{
+	height: 100%;
+	flex: 0.2;
+	background-image: url(../img/我的微信头像.jpg);
+	background-size: 81px 100px;
+	background-repeat: no-repeat;
+	/*border: 1px solid red; */
+}
+#contentcenter
+{
+	height: 100%;
+	flex: 0.6;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#contentright
+{
+	height: 100%;
+	flex: 0.2;
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#contentright img
+{
+	width: 50px;
+	height: 50px;
+}
+.contentall
+{
+	height:70px;
+	border-bottom: 1px solid grey;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#contentpay img
+{
+	width: 50px;
+	height: 50px;
+}
+#contentshoucang img
+{
+	width: 50px;
+	height: 50px;
+}
+#contentphoto img
+{
+	width: 50px;
+	height: 50px;
+}
+#contentcard img
+{
+	width: 50px;
+	height: 50px;
+}
+#contentface img
+{
+	width: 50px;
+	height: 50px;
+}
+#contentset img
+{
+	width: 50px;
+	height: 50px;
+}
