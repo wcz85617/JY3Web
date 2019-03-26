@@ -1,0 +1,44 @@
+#ling
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid black;
+	background-color: #ffeb3b;
+	position: relative;
+	top: 5px;
+	left: 580px;
+}
+#ling1
+{
+	width: 53px;
+	height: 10px;
+	border-radius: 33%;
+	border: 2px solid black;
+	background-color: #ffeb3b;
+	position: relative;
+	top: 8px;
+	left: 1px;
+}
+#ling2
+{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid black;
+	background-color: #795548;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+#ling3
+{
+	width: 1px;
+	height: 16px;
+	/*border-radius: 50%;*/
+	border-right: 2px solid black;
+	/*background-color: #795548;*/
+	position: relative;
+	top: 12px;
+	left: 28px;
+}

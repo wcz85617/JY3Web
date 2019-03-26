@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<title>成绩单</title>
+	</head>
+	<body>
+		<h1>成绩单</h1>
+		
+			
+		<table>	
+			
+			
+		</table>
+		<script>
+			$(function(){
+				$("table").append("<thead><th>排名</th><th>姓名</th><th>性别</th><th>财富总额</th></thead><tr><td>1</td><td>马云</td><td>男</td><td>10亿元</td></tr><tr><td>2</td><td>马化腾</td><td>男</td><td>9亿元</td></tr>")
+				$("table").css("border","2px solid red");
+				$("tr:first").css("color","red");
+				$("tr:first").css("font-size","20px");
+				$("tr:last").css("color","blue");
+				$("tr:even").css("background-color","#ffd");
+				$("tr:odd").css("background-color","#ddf");
+				$("tr:gt(1)").css("font-size","50px");
+				$("tr:lt(2)").css("font-size","14px");
+				$("h1").css("font-size","100px");
+				
+				
+				
+			})
+			
+			
+			
+			
+		</script>
+	</body>
+</html>

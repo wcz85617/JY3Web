@@ -1,0 +1,32 @@
+#title
+{
+	height: 60px;
+	background-color: #a52a2a;
+	display: flex;
+}
+#title1
+{
+	flex: 0.8;
+	height: 100%;
+	text-indent: 5px;
+	display: flex;
+	align-items: center;
+	
+}
+
+#title2
+{
+	flex:0.2;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}	
+#title2 img
+{
+	width: 26px;
+	height: 26px;
+	
+}
+
+	

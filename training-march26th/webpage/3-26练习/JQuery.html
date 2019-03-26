@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+			.aa
+			{
+				border-bottom:3px solid red;
+				
+			}
+			.bb
+			{
+				border-radius: 40%;
+			}
+			.masan
+			{
+				width: 70px;
+				height: 70px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="container">
+			
+		</div>
+		<button id="btn1">发送</button>
+		<!--<div></div>
+		<div></div>-->
+		<script>
+			$(function(){
+				$("#container").css({"width":"500px","height":"400px","background-color":"red","display":"flex","flex-direction":"column"});
+				$("#btn1").css({"position":"absolute","top":"300px","left":"510px"});
+				$("#btn1").click(function(){
+					$("#container").append("<img class='masan' src='../../img/mahuateng.jpg'/><span>饿了么</span>");
+				})
+				
+				
+				
+				
+//				alert("恭喜您中大奖啦")
+//				alert($("#container").html());
+//				$("#container").css("width","500px");
+//				$("#container").css("height","500px");
+//				$("#container").css("background-color","blanchedalmond");
+//				$("#container").addClass("aa");
+//				$("#container").addClass("bb");
+//				$("#container").next().css("width","50px");
+//				$("#container").next().css("height","100px");
+//				$("#container").next().css("background-color","red");
+//				$("#container").next().next().css("width","50px");
+//				$("#container").next().next().css("height","100px");
+//				$("#container").next().next().css("background-color","yellow");
+//				$("tr:even").css("background-color","#7CFC00");
+//				alert("恭喜您中大奖啦")
+			})	
+		</script>
+	</body>
+</html>
