@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<title>电商商城首页</title>
+		<link rel="stylesheet" href="../../css/common.css" />
+		<link rel="stylesheet" href="../../css/container.css" />
+		<link rel="stylesheet" href="../../css/dstitle.css" />
+		<link rel="stylesheet" href="../../css/dsfirst.css" />
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+
+
+
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="jiantou"></div>
+			<div id="title"></div>
+			<div id="photo1"></div>
+			<div id="photo2"></div>
+			<div id="firstz"></div>
+			<div class="beijing"></div>
+			<div id="waiyu"></div>
+			<div class="beijing"></div>
+			<div id="IT"></div>
+			<div class="beijing"></div>
+			<div id="xiaoshuo"></div>
+			<div class="beijing"></div>
+			<div id="dianzi"></div>
+			<div class="beijing"></div>
+			<div id="jiu"></div>
+			<div id="lianxi"></div>
+			<div id="last">
+				津公网安备11000020190325号|津ICP证088888号|
+			</div>
+			
+		</div>
+		
+		
+		<script>
+			$(function(){
+				$("#title").append("<div id='title1'></div><div id='title2'></div>");
+				$("#title2").append("<div id='title21'></div><div id='title22'></div>");
+				$("#title21").append("<a href='http://127.0.0.1:8020/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6/webpage/%E5%95%86%E5%9F%8E%E4%BD%9C%E4%B8%9A/%E5%95%86%E5%9F%8E%E7%99%BB%E5%BD%95.html'>请登录</a><a href='http://127.0.0.1:8020/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6/webpage/%E5%95%86%E5%9F%8E%E4%BD%9C%E4%B8%9A/%E5%95%86%E5%9F%8E%E6%B3%A8%E5%86%8C%20%E5%89%AF%E6%9C%AC.html'>会员注册</a><a href='http://127.0.0.1:8020/%E5%AD%A6%E4%B9%A0%E6%96%87%E4%BB%B6/webpage/%E5%95%86%E5%9F%8E%E4%BD%9C%E4%B8%9A/%E5%95%86%E5%9F%8E%E6%88%91%E7%9A%84%E8%AE%A2%E5%8D%95%20%E5%89%AF%E6%9C%AC.html'>我的订单</a>");
+				$("#title22").append("<input type='text' placeholder='请输入文字' style='color: #000000;'/><button style='color: #000000;'>搜索</button>");
+				$("#title1").append("<div id='title11' name='title11'></div><div id='title12'></div>");
+				$("#title12").append("<span style='font-size: 25px;' >图书商城</span>");
+				$("#photo1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/photo.jpg' />");
+				$("#photo2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E4%B8%9C%E8%BD%AF.jpg' />");
+				$("#firstz").append("<div id='zleft'></div><div id='zright'></div>");
+				$("#zleft").append("<table id='ht'><thead><th>图书分类</th></thead><tr><td>●外语</td></tr><tr><td style='text-indent: 10px;'> 英语</td></tr><tr><td style='text-indent: 10px;'> 韩语</td></tr><tr><td style='text-indent: 10px;'> 日语</td></tr><tr><td style='text-indent: 10px;'> 德语</td></tr><tr><td style='text-indent: 10px;'> 俄语</td></tr><tr><td style='text-indent: 10px;'></td></tr><tr><td style='text-indent: 10px;'></td></tr><tr><td>●IT</td></tr><tr><td style='text-indent: 10px;'> 互联网</td></tr><tr><td style='text-indent: 10px;'> 大数据</td></tr><tr><td style='text-indent: 10px;'> 前端</td></tr><tr><td style='text-indent: 10px;'> JAVA</td></tr><tr><td style='text-indent: 10px;'> 区块链</td></tr><tr><td style='text-indent: 10px;'></td></tr><tr><td style='text-indent: 10px;'></td></tr><tr><td>●小说</td></tr><tr><td style='text-indent: 10px;'> 科幻</td></tr><tr><td style='text-indent: 10px;'> 穿越</td></tr><tr><td style='text-indent: 10px;'> 言情</td></tr><tr><td style='text-indent: 10px;'> 恐怖</td></tr><tr><td>●电子书</td></tr><tr><td>●二手图书</td></tr></table>");
+	            $("#zright").append("<div id='zright1'></div><div id='zright2'></div><div id='zright3'></div>");
+	            $("#zright1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E4%B8%87%E7%89%A9%E7%94%9F%E9%95%BF.jpg' />");
+			    $("#zright2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E6%88%91%E6%80%9D%E6%95%85%E6%88%91%E5%9C%A8.jpg' />");
+			    $("#zright3").append("<h3>公告</h3><span>本网站自2019年3月25日上线，</span><span>图书商城大促销,满199减100</span><span>惊喜等你,好礼相送不等待,图书</span><span>齐全，顺丰发货，省时又省事。</span>");
+			    $(".beijing").append("<img src='http://pp09ux8bj.bkt.clouddn.com/newbookpc.jpg' />");
+			    $("#waiyu").append("<div id='waiyu1'></div><div id='waiyu2'></div>");
+			    $("#waiyu1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/yingwen.jpg' /><p>英语技能提高丛书:</p><p>雅思考试必备</p><p>平装：80元（包邮)</p>");
+			    $("#waiyu2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/riyu.jpg' /><p>中日交流标准日本语初</p><p>(第2版)(套装共2册)</p><p>平装：100元（包邮）</p>");
+			    $("#IT").append("<div id='IT1'></div><div id='IT2'></div>");
+			    $("#IT1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/IT1.jpg' /><p>网络空间安全防御</p><p>平装：100元（包邮)</p>");
+			    $("#IT2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/IT2.jpg' /><p>Metasploit渗透指南</p><p>精装：100元（包邮)</p>");
+			    $("#xiaoshuo").append("<div id='xiaoshuo1'></div><div id='xiaoshuo2'></div>");
+			    $("#xiaoshuo1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E5%B0%8F%E8%AF%B41.jpg' /><p>横扫25国的推理小说</p><p>必须牺牲卡米尔</p><p>平装：70元（包邮)</p>");
+			    $("#xiaoshuo2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E5%B0%8F%E8%AF%B42.jpg' /><p>深渊游戏I·洗神髓</p><p>睿乐专享摩斯密码书签</p><p>平装：150元（包邮)</p>");
+			    $("#dianzi").append("<div id='dianzi1'></div><div id='dianzi2'></div>");
+			    $("#dianzi1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E7%94%B5%E5%AD%901.jpg' /><p>韭菜的自我修养</p><p>睿乐价：15元</p>");
+			    $("#dianzi2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E7%94%B5%E5%AD%902.jpg' /><p>非暴力沟通</p><p>睿乐价：25元</p>");
+			    $("#jiu").append("<div id='jiu1'></div><div id='jiu2'></div>");
+			    $("#jiu1").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E5%B0%B11.jpg' /><p>正版二手 2018版</p><p>中国近现代史纲要</p><p>睿乐价：20元</p>");
+			    $("#jiu2").append("<img src='http://pp09ux8bj.bkt.clouddn.com/%E5%B0%B12.jpg' /><p>(二手8成新)</p><p>中国近现代史纲要</p><p>睿乐价：20元</p>");
+			    $("#lianxi").append("<span>联系我们</span><span>广告平台</span><span>友情链接</span><span>商家帮助</span>");
+			    $("#jiantou").append("<a href='#title11'><img src='http://pp09ux8bj.bkt.clouddn.com/%E4%B8%8A%E7%AE%AD%E5%A4%B4.svg' /></a>");
+			
+			
+			
+			})
+			
+			
+			
+		</script>
+	</body>
+</html>
