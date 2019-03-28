@@ -1,0 +1,60 @@
+#title
+{
+	height: 120px;
+	background-color: white;
+	display: flex;
+}
+#title1
+{
+	height: 100%;
+	flex: 0.4;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+}
+#title2
+{
+	height: 100%;
+	flex: 0.6;
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-direction: column;
+}
+#title21
+{
+	height: 50%;
+	flex: 0.5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+}
+#title22
+{
+	height: 50%;
+	flex: 0.5;
+	color: #000000;
+}
+#title2 button
+{
+	background-color: red;
+}
+#title11
+{
+	height: 50%;
+	flex: 0.5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url(http://pp09ux8bj.bkt.clouddn.com/logo%E9%AB%98%E6%B8%85.svg);
+	background-repeat: no-repeat;
+}
+#title12
+{
+	height: 50%;
+	flex: 0.5;
+	color: #000000;
+	margin-left: 10px;
+	
+}
+

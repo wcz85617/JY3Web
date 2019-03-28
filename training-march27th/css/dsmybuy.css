@@ -1,0 +1,65 @@
+#vipphoto img
+{
+	width: 375px;
+	height: 185px;
+}
+#mymsg
+{
+	width: 100%;
+	height: 277px;
+	display: flex;
+	flex-direction: column;
+}
+#mymsg1
+{
+	width: 100%;
+	flex: 0.25;
+	border-bottom: 1px solid grey;
+	display: flex;
+	align-items: center;
+}
+#mymsg2
+{
+	width: 100%;
+	flex: 0.25;
+	border-bottom: 1px solid grey;
+	align-items: center;
+	display: flex;
+}
+#mymsg2 img
+{
+	width: 60px;
+	height: 60px;
+}
+#mymsg3
+{
+	width: 100%;
+	flex: 0.25;
+	border-bottom: 1px solid grey;
+	align-items: center;
+	display: flex;
+}
+
+#mymsg3 img
+{
+	width: 60px;
+	height: 60px;
+}
+#mymsg4
+{
+	width: 100%;
+	flex: 0.25;
+	border-bottom: 1px solid grey;
+	align-items: center;
+	display: flex;
+}
+#mymsg4 img
+{
+	width: 60px;
+	height: 60px;
+}
+#mymsg4 a
+{
+	margin-left: 165px;
+	margin-top: 50px;
+}

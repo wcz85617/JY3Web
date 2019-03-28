@@ -1,0 +1,95 @@
+#zhuce
+{
+	width: 100%;
+	height: 465px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	
+}
+#zhuce1
+{
+	width: 100%;
+	flex: 0.125;
+	text-align: center;
+	
+}
+#zhuce2
+{
+	width: 100%;
+	flex: 0.125;
+	text-align: center;
+	
+}
+#zhuce2 input
+{
+	width: 250px;
+	height: 45px;
+	margin-left: 20px;
+
+}
+
+#zhuce3
+{
+	width: 100%;
+	flex: 0.125;
+	text-align: center;
+	
+}
+#zhuce3 input
+{
+	width: 250px;
+	height: 45px;
+}
+#zhuce4
+{
+	width: 100%;
+	flex: 0.125;
+	text-align: center;
+	
+}
+#zhuce4 input
+{
+	width: 250px;
+	height: 45px;
+}
+#zhuce5
+{
+	width: 100%;
+	flex: 0.125;
+	text-align: center;
+	
+}
+#zhuce5 input
+{
+	width: 250px;
+	height: 45px;
+}
+#zhuce6
+{
+	width: 100%;
+	flex: 0.125;
+	margin-left: 90px;
+	
+}
+#zhuce7
+{
+	width: 100%;
+	flex: 0.125;
+	text-align: center;
+	
+}
+#zhuce7 button
+{
+	width: 100px;
+	height: 30px;
+	border-radius: 10%;
+	background-color: orange;
+
+}
+#zhuce8
+{
+	width: 100%;
+	flex: 0.125;
+	margin-left: 300px;
+}
